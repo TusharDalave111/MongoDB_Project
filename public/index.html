@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Management System</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Flight Management System</h1>
+          <div>
+            <button onclick="getData('flights')"> Flights Available
+            </button>
+            <button onclick="getData('passengers')"> Passengers
+               
+            </button>
+            <button onclick="getData('bookings')"> Bookings
+               
+            </button>
+            <button onclick="getData('airlines')"> Airlines
+                
+            </button>
+            <button onclick="getData('airports')"> Airports
+               
+            </button>
+            <button onclick="getData('cities')"> Cities
+            </button>
+            <button onclick="getData('countries')"> Countries
+            </button>
+          </div>
+    </header>
+
+    <div class="container">
+        <div id="data-display" class="data-display"></div>
+     
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
